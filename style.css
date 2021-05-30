@@ -104,7 +104,7 @@ body {
 @media (max-width: 500px) {
   .container {
     padding: 1% 4%;
-    height: 80vh;
+    min-height: 80vh;
   }
 
   #search {
