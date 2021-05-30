@@ -29,6 +29,7 @@ body {
   -webkit-box-shadow: 1px 24px 36px 12px rgba(0, 0, 0, 0.27);
   -moz-box-shadow: 1px 24px 36px 12px rgba(0, 0, 0, 0.27);
   box-shadow: 1px 24px 36px 12px rgba(0, 0, 0, 0.27);
+  min-height: 80vh;
 }
 
 #search {
@@ -127,4 +128,12 @@ body {
     font-weight: 600;
     opacity: 0.8;
   }
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
 }
