@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),
+    url('images/bg1.jpg');
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+#search {
+  outline: none;
+  font-family: 'Josefin Sans', sans-serif;
+  border: none;
+  color: #fff;
+  padding: 20px 10px;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.input-search {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  width: 100%;
+  padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#search-icon {
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.location {
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.main-deg {
+  font-size: 7rem;
+  text-shadow: 2px 2px 0 #000000, 8px 8px 0 #000000;
+}
+
+.about {
+  font-size: 1.5rem;
+}
+
+.average {
+  font-size: 2rem;
+}
