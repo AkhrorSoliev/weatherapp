@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: 'Josefin Sans', sans-serif;
@@ -11,10 +15,20 @@ body {
   justify-content: center;
   align-items: center;
   background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),
-    url('images/bg1.jpg');
+    url('https://source.unsplash.com/1920x1280/?nature');
   background-position: center;
   background-size: cover;
   color: #fff;
+  background-repeat: no-repeat;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 1% 8%;
+  border-radius: 15px;
+  -webkit-box-shadow: 1px 24px 36px 12px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: 1px 24px 36px 12px rgba(0, 0, 0, 0.27);
+  box-shadow: 1px 24px 36px 12px rgba(0, 0, 0, 0.27);
 }
 
 #search {
@@ -27,16 +41,18 @@ body {
   border-radius: 20px;
   font-size: 18px;
   font-weight: bold;
+  color: #fff;
 }
 
 .input-search {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 20px;
-  width: 100%;
+  max-width: 300px;
   padding-right: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 1rem auto 1rem;
 }
 
 #search-icon {
@@ -47,9 +63,10 @@ body {
 
 .location {
   font-size: 2rem;
+  line-height: 1.5;
 }
 
-h5 {
+.date {
   font-size: 1.2rem;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
@@ -57,6 +74,7 @@ h5 {
 }
 
 .main-deg {
+  margin: 50px auto;
   font-size: 7rem;
   text-shadow: 2px 2px 0 #000000, 8px 8px 0 #000000;
 }
@@ -67,4 +85,46 @@ h5 {
 
 .average {
   font-size: 2rem;
+}
+
+#weather {
+  width: 50px;
+  color: #fff;
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding: 1% 4%;
+  }
+
+  #search {
+    padding: 15px 15px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .input-search {
+    width: 90%;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 1rem auto 1rem;
+  }
+
+  #search-icon {
+    font-size: 18px;
+    padding-right: 15px;
+  }
+
+  .location {
+    font-size: 1.5rem;
+  }
+
+  h5 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    opacity: 0.8;
+  }
 }
