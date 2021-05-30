@@ -93,6 +93,14 @@ body {
   color: #fff;
 }
 
+.link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+
 @media (max-width: 500px) {
   .container {
     padding: 1% 4%;
@@ -129,12 +137,4 @@ body {
     font-weight: 600;
     opacity: 0.8;
   }
-}
-
-.link {
-  text-decoration: none;
-  color: #fff;
-  font-size: 18px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: normal;
 }
