@@ -12,30 +12,40 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="icon" type="ico/images" href="images/cloudy.svg" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
       <div class="input-search">
         <input type="text" name="" id="search" placeholder="Qidirish" />
-
         <i class="fas fa-search" id="search-icon"></i>
       </div>
 
       <div class="locate-date">
-        <h3 class="location">London, GB</h3>
-        <h5>
-          <span>Seshanba /</span>
+        <h3 class="location">
+          Shaxringizni ingiliz
+          <br />
+          tildia kiriting.
+        </h3>
+        <h5 class="date">
+          <!-- <span>Seshanba /</span>
           <span>10</span>
           <span>Yanvar /</span>
-          <span>2021</span>
+          <span>2021</span> -->
         </h5>
 
-        <h2 class="main-deg">15˚c</h2>
+        <h2 class="main-deg">˚c</h2>
 
-        <h4 class="about">Sunny</h4>
-        <span class="average">17˚c / 19˚c</span>
+        <div class="weather">
+          <img src="images/snowing.svg" alt="image weather" id="weather" />
+          <h4 class="about">Wehather</h4>
+        </div>
+
+        <span class="average">Min˚c / Max˚c</span>
       </div>
     </div>
+
+    <script src="app.js"></script>
   </body>
 </html>
